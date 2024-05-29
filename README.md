@@ -1,6 +1,6 @@
-# Zest_Core_STM32L4A6RG
+# Zest_Core_STM32L562VE
 
-[Zest_Core_STM32L4A6RG](https://6tron.io/zest_core/zest_core_stm32l4a6rg_3_1_0) board support for Zephyr OS.
+[Zest_Core_STM32L562VE](https://6tron.io/zest_core/zest_core_stm32l562ve_1_0_0) board support for Zephyr OS.
 
 ## Dependencies
 
@@ -9,13 +9,12 @@ This module depends on:
 
 ## Supported Features
 
-The Zephyr Zest_Core_STM32L4A6RG board configuration supports the following hardware features:
+The Zephyr Zest_Core_STM32L562VE board configuration supports the following hardware features:
 
 | Interface | Controller                                                                  | Driver/Component                               |
 | :-------- | :-------------------------------------------------------------------------- | :--------------------------------------------- |
 | ADC       | on-chip                                                                     | adc                                            |
 | AES       | on-chip                                                                     | crypto                                         |
-| CAN       | on-chip                                                                     | can                                            |
 | CLOCK     | on-chip                                                                     | clock_control                                  |
 | DAC       | on-chip                                                                     | dac                                            |
 | DIE_TEMP  | on-chip                                                                     | sensor                                         |
@@ -30,14 +29,14 @@ The Zephyr Zest_Core_STM32L4A6RG board configuration supports the following hard
 | PINCTRL   | on-chip                                                                     | pinctrl                                        |
 | QSPI      | on-chip                                                                     | qspi, flash                                    |
 | RNG       | on-chip                                                                     | entropy                                        |
-| RTC       | on-chip                                                                     | rtc                                            |
+| RTC       | git push -u origin mainon-chip                                                                     | rtc                                            |
 | SDMMC     | on-chip                                                                     | disk                                           |
 | SMBUS     | on-chip                                                                     | smbus                                          |
 | SPI       | on-chip                                                                     | spi                                            |
 | TIMER     | on-chip                                                                     | counter, pwm, timer                            |
 | UART      | on-chip                                                                     | serial                                         |
 | USART     | on-chip                                                                     | serial                                         |
-| USB       | [CP2102N](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers) | console                                        |
+| USB       | [FT232RQ](https://ftdichip.com/products/ft232rq/) | console                                        |
 | USBOTG_FS | on-chip                                                                     | usb                                            |
 | VBAT      | on-chip                                                                     | sensor                                         |
 | VREF      | on-chip                                                                     | sensor                                         |
@@ -48,6 +47,6 @@ See [STMicroelectronics vendor bindings](https://docs.zephyrproject.org/latest/b
 
 ## Usage
 
-1. Add the Zest_Core_STM32L4A6RG board to your workspace using the [6TRON module](https://github.com/catie-aq/zephyr_6tron-manifest.git).
+1. Add the Zest_Core_STM32L562VE board to your workspace using the [6TRON module](https://github.com/catie-aq/zephyr_6tron-manifest.git).
 2. Compile and flash application using `west` tool:
-   - Board name: `zest_core_stm32l4a6rg`
+   - Board name: `zest_core_stm32l562ve`
