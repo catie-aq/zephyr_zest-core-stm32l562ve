@@ -1,6 +1,6 @@
 # Zest Core STM32L4A6RG board configuration
 
-# Copyright (c) 2023 CATIE
+# Copyright (c) 2024 CATIE
 # SPDX-License-Identifier: Apache-2.0
 
 config BOARD_ZEST_CORE_STM32L562VE
