@@ -50,7 +50,7 @@
                    <DIO19 0 &gpioc 11 0>,
                    <DIO20 0 &gpioc 10 0>,
                    <DIO21 0 &gpioc 9 0>,
-                   <DIO22 0 &gpioc 8 0>
+                   <DIO22 0 &gpioc 8 0>,
                    <DIO25 0 &gpioe 12 0>,
                    <DIO26 0 &gpioe 13 0>,
                    <DIO27 0 &gpioe 14 0>,
