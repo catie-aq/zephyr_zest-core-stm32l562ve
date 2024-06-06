@@ -77,3 +77,5 @@ sixtron_uart: &sixtron_connector_1_uart {};
 sixtron_spi: &sixtron_connector_1_spi {};
 sixtron_adc: &sixtron_connector_1_adc {};
 sixtron_dac: &sixtron_connector_1_dac {};
+
+sixtron_connector: &sixtron_connector_1 {};
