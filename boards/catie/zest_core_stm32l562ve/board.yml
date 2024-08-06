@@ -1,0 +1,5 @@
+board:
+  name: zest_core_stm32l562ve
+  vendor: catie
+  socs:
+    - name: stm32l562xx
