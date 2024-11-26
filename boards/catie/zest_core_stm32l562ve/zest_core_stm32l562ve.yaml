@@ -1,0 +1,21 @@
+identifier: zest_core_stm32l562ve
+name: Zest_Core_STM32L562VE
+type: mcu
+arch: arm
+toolchain:
+  - zephyr
+  - gnuarmemb
+supported:
+  - gpio
+  - i2c
+  - lptim
+  - pwm
+  - counter
+  - spi
+  - ble
+  - dma
+  - usart
+  - usb
+ram: 192
+flash: 512
+vendor: catie
