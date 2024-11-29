@@ -118,8 +118,8 @@
 	st,prescaler = <1>;
 	status = "okay";
 
-	pwm3: pwm {
-		pinctrl-0 = <&tim4_ch3_pd14>;
+	pwm4: pwm {
+		pinctrl-0 = <&tim4_ch3_pd14 &tim4_ch4_pd15>;
 		pinctrl-names = "default";
 		status = "okay";
 	};
